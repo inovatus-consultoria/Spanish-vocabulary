@@ -73,7 +73,7 @@
     <section class="panel side hidden" id="editPanel" style="margin-top:18px"><h2>Edit current word</h2><div class="verb-grid"><div><label for="editEnglish">English translation</label><input id="editEnglish" type="text" autocomplete="off" /></div><div><label for="editSpanish">Spanish word</label><input id="editSpanish" type="text" autocomplete="off" /></div></div><div class="actions"><button class="secondary" id="cancelEdit">Cancel</button><button class="primary" id="saveEdit">Save changes</button></div></section>
     <section class="layout">
       <section class="panel quiz" id="quizPanel">
-        <div class="modebar"><span id="direction">English → Spanish</span><span id="counter">Load your workbook to begin</span></div>
+        <div class="modebar"><span id="direction">English → Spanish</span><span id="counter" style="display:none">Load your workbook to begin</span></div>
           <div id="emptyState" class="empty"><strong>No matching words</strong>The fixed database workbook is loaded, but this question set currently has no available words.</div>
         <div id="questionState" class="hidden">
           <div class="prompt-label" id="promptLabel">Translate this word</div>
